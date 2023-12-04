@@ -1,0 +1,207 @@
+module Base
+{
+	model Item_BookAiming_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookAiming,
+        scale = 0.4,
+    }
+	model Item_BookAiming_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookAiming,
+        scale = 0.4,
+    }
+	model Item_BookAxe_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookAxe,
+        scale = 0.4,
+    }
+	model Item_BookAxe_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookAxe,
+        scale = 0.4,
+    }
+	model Item_BookBlunt_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookBlunt,
+        scale = 0.4,
+    }
+	model Item_BookBlunt_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookBlunt,
+        scale = 0.4,
+    }
+	model Item_BookFitness_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookFitness,
+        scale = 0.4,
+    }
+	model Item_BookFitness_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookFitness,
+        scale = 0.4,
+    }
+	model Item_BookLightfoot_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookLightfoot,
+        scale = 0.4,
+    }
+	model Item_BookLightfoot_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookLightfoot,
+        scale = 0.4,
+    }
+	model Item_BookLongBlade_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookLongBlade,
+        scale = 0.4,
+    }
+	model Item_BookLongBlade_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookLongBlade,
+        scale = 0.4,
+    }
+	model Item_BookMaintenance_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookMaintenance,
+        scale = 0.4,
+    }
+	model Item_BookMaintenance_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookMaintenance,
+        scale = 0.4,
+    }
+	model Item_BookNimble_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookNimble,
+        scale = 0.4,
+    }
+	model Item_BookNimble_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookNimble,
+        scale = 0.4,
+    }
+	model Item_BookReading_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookReading,
+        scale = 0.4,
+    }
+	model Item_BookReading_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookReading,
+        scale = 0.4,
+    }
+	model Item_BookReloading_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookReloading,
+        scale = 0.4,
+    }
+	model Item_BookReloading_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookReloading,
+        scale = 0.4,
+    }
+	model Item_BookSmallBlade_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookSmallBlade,
+        scale = 0.4,
+    }
+	model Item_BookSmallBlade_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookSmallBlade,
+        scale = 0.4,
+    }
+	model Item_BookSmallBlunt_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookSmallBlunt,
+        scale = 0.4,
+    }
+	model Item_BookSmallBlunt_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookSmallBlunt,
+        scale = 0.4,
+    }
+	model Item_BookSneak_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookSneak,
+        scale = 0.4,
+    }
+	model Item_BookSneak_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookSneak,
+        scale = 0.4,
+    }
+	model Item_BookSpear_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookSpear,
+        scale = 0.4,
+    }
+	model Item_BookSpear_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookSpear,
+        scale = 0.4,
+    }
+	model Item_BookSprinting_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookSprinting,
+        scale = 0.4,
+    }
+	model Item_BookSprinting_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookSprinting,
+        scale = 0.4,
+    }
+	model Item_BookStrength_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookStrength,
+        scale = 0.4,
+    }
+	model Item_BookStrength_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookStrength,
+        scale = 0.4,
+    }
+	model Item_BookTailoring_Ground
+    {
+        mesh = WorldItems/Book,
+        texture = WorldItems/Item_BookTailoring,
+        scale = 0.4,
+    }
+	model Item_BookTailoring_Closed_Ground
+    {
+        mesh = WorldItems/BookClosed,
+        texture = WorldItems/Item_BookTailoring,
+        scale = 0.4,
+    }
+}

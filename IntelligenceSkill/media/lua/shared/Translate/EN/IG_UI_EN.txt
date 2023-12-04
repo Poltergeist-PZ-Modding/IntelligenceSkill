@@ -1,0 +1,8 @@
+IGUI_EN = {
+	IGUI_perks_Reading = "Intelligence",
+	IGUI_Dropname = "Literacy skill bonus EXP change",
+	IGUI_Literacy_DropList1 = "x0 to x2 scale",
+	IGUI_Literacy_DropList2 = "x0.5 to x1.5 scale",
+	IGUI_Literacy_DropList3 = "No Change",
+	IGUI_Literacy_DropdownList1_Tooltip = "How impactful the Literacy skill is to the reading book bonus"
+}

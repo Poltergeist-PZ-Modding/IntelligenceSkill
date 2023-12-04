@@ -1,0 +1,14 @@
+VERSION = 1,
+
+option IntelligenceSkill.BaseEXP
+{
+	type = integer, min = 0, max = 100, default = 4,
+	page = IntelligenceSkill, translation = IntelligenceSkill_BaseEXP,
+}
+
+
+
+
+
+
+

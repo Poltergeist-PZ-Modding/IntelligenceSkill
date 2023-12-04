@@ -1,0 +1,7 @@
+id=IntelligenceSkill
+name=Intelligence Skill
+description=This mod adds a new skill to the game. The Intelligence Skill will influence the xp gains of the players.
+poster=poster.png
+icon=icon.png
+versionMin=41.78
+authors=Poltergeist

@@ -1,0 +1,1843 @@
+module IntReading
+{
+    /****************************** Skill Books ******************************/
+
+    item BookReading1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Literacy Vol.1: How to Read,
+		Icon	=	BookReading,
+        SkillTrained = Intelligence,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookReading1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookReading_Ground,
+	}
+
+    item BookReading2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Literacy Vol.2: Understanding Comprehension,
+		Icon	=	BookReading,
+        SkillTrained = Intelligence,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookReading2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookReading_Ground,
+	}
+
+    item BookReading3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Literacy Vol.3: Layers of Meaning,
+		Icon	=	BookReading,
+        SkillTrained = Intelligence,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookReading3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookReading_Ground,
+	}
+
+    item BookReading4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Literacy Vol.4: Speed Reading,
+		Icon	=	BookReading,
+        SkillTrained = Intelligence,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookReading4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookReading_Closed_Ground,
+	}
+
+    item BookReading5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Literacy Vol.5: The Never Ending Study,
+		Icon	=	BookReading,
+        SkillTrained = Intelligence,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookReading5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookReading_Closed_Ground,
+	}
+
+    item BookReading6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Literacy Vol.6,
+		Icon	=	BookReading,
+        SkillTrained = Intelligence,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookReading6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookReading_Closed_Ground,
+	}
+
+	item BookStrength1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Strength Vol.1: Novices Techniques,
+		Icon	=	BookStrength,
+        SkillTrained = Strength,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookStrength1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookStrength_Ground,
+	}
+
+    item BookStrength2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Strength Vol.2: Intermediate Techniques,
+		Icon	=	BookStrength,
+        SkillTrained = Strength,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookStrength2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookStrength_Ground,
+	}
+
+    item BookStrength3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Strength Vol.3: Advance Techniques,
+		Icon	=	BookStrength,
+        SkillTrained = Strength,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookStrength3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookStrength_Ground,
+	}
+
+    item BookStrength4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Strength Vol.4: Expert Techniques,
+		Icon	=	BookStrength,
+        SkillTrained = Strength,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookStrength4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookStrength_Closed_Ground,
+	}
+
+    item BookStrength5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Strength Vol.5: Professional Techniques,
+		Icon	=	BookStrength,
+        SkillTrained = Strength,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookStrength5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookStrength_Closed_Ground,
+	}
+
+    item BookStrength6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Strength Vol.6,
+		Icon	=	BookStrength,
+        SkillTrained = Strength,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookStrength6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookStrength_Closed_Ground,
+	}
+
+    item BookFitness1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Fitness Vol.1: Novices Techniques,
+		Icon	=	BookFitness,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookFitness1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookFitness_Ground,
+	}
+
+    item BookFitness2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Fitness Vol.2: Intermediate Techniques,
+		Icon	=	BookFitness,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookFitness2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookFitness_Ground,
+	}
+
+    item BookFitness3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Fitness Vol.3: Advance Techniques,
+		Icon	=	BookFitness,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookFitness3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookFitness_Ground,
+	}
+
+    item BookFitness4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Fitness Vol.4: Expert Techniques,
+		Icon	=	BookFitness,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookFitness4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookFitness_Closed_Ground,
+	}
+
+    item BookFitness5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Fitness Vol.5: Professional Techniques,
+		Icon	=	BookFitness,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookFitness5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookFitness_Closed_Ground,
+	}
+
+    item BookFitness6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Fitness Vol.6,
+		Icon	=	BookFitness,
+        SkillTrained = Fitness,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookFitness6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookFitness_Closed_Ground,
+	}
+
+    item BookLightfoot1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Lightfoot Vol.1: Novices Techniques,
+		Icon	=	BookLightfoot,
+        SkillTrained = Lightfoot,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookLightfoot1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookLightfoot_Ground,
+	}
+
+    item BookLightfoot2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Lightfoot Vol.2: Intermediate Techniques,
+		Icon	=	BookLightfoot,
+        SkillTrained = Lightfoot,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookLightfoot2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookLightfoot_Ground,
+	}
+
+    item BookLightfoot3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Lightfoot Vol.3: Advance Techniques,
+		Icon	=	BookLightfoot,
+        SkillTrained = Lightfoot,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookLightfoot3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookLightfoot_Ground,
+	}
+
+    item BookLightfoot4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Lightfoot Vol.4: Expert Techniques,
+		Icon	=	BookLightfoot,
+        SkillTrained = Lightfoot,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookLightfoot4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookLightfoot_Closed_Ground,
+	}
+
+    item BookLightfoot5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Lightfoot Vol.5: Professional Techniques,
+		Icon	=	BookLightfoot,
+        SkillTrained = Lightfoot,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookLightfoot5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookLightfoot_Closed_Ground,
+	}
+
+    item BookLightfoot6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Lightfoot Vol.6,
+		Icon	=	BookLightfoot,
+        SkillTrained = Lightfoot,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookLightfoot6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookLightfoot_Closed_Ground,
+	}
+
+    item BookNimble1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Nimble Vol.1: Novices Techniques,
+		Icon	=	BookNimble,
+        SkillTrained = Nimble,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookNimble1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookNimble_Ground,
+	}
+
+    item BookNimble2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Nimble Vol.2: Intermediate Techniques,
+		Icon	=	BookNimble,
+        SkillTrained = Nimble,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookNimble2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookNimble_Ground,
+	}
+
+    item BookNimble3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Nimble Vol.3: Advance Techniques,
+		Icon	=	BookNimble,
+        SkillTrained = Nimble,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookNimble3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookNimble_Ground,
+	}
+
+    item BookNimble4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Nimble Vol.4: Expert Techniques,
+		Icon	=	BookNimble,
+        SkillTrained = Nimble,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookNimble4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookNimble_Closed_Ground,
+	}
+
+    item BookNimble5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Nimble Vol.5: Professional Techniques,
+		Icon	=	BookNimble,
+        SkillTrained = Nimble,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookNimble5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookNimble_Closed_Ground,
+	}
+
+    item BookNimble6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Nimble Vol.6,
+		Icon	=	BookNimble,
+        SkillTrained = Nimble,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookNimble6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookNimble_Closed_Ground,
+	}
+
+    item BookSneak1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Sneaking Vol.1: Novices Techniques,
+		Icon	=	BookSneak,
+        SkillTrained = Sneak,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSneak1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSneak_Ground,
+	}
+
+    item BookSneak2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Sneaking Vol.2: Intermediate Techniques,
+		Icon	=	BookSneak,
+        SkillTrained = Sneak,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSneak2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSneak_Ground,
+	}
+
+    item BookSneak3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Sneaking Vol.3: Advance Techniques,
+		Icon	=	BookSneak,
+        SkillTrained = Sneak,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSneak3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSneak_Ground,
+	}
+
+    item BookSneak4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Sneaking Vol.4: Expert Techniques,
+		Icon	=	BookSneak,
+        SkillTrained = Sneak,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSneak4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSneak_Closed_Ground,
+	}
+
+    item BookSneak5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Sneaking Vol.5: Professional Techniques,
+		Icon	=	BookSneak,
+        SkillTrained = Sneak,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSneak5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSneak_Closed_Ground,
+	}
+
+    item BookSneak6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Sneaking Vol.6,
+		Icon	=	BookSneak,
+        SkillTrained = Sneak,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookSneak6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSneak_Closed_Ground,
+	}
+
+    item BookSprinting1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Sprinting Vol.1: Novices Techniques,
+		Icon	=	BookSprinting,
+        SkillTrained = Sprinting,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSprinting1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSprinting_Ground,
+	}
+
+    item BookSprinting2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Sprinting Vol.2: Intermediate Techniques,
+		Icon	=	BookSprinting,
+        SkillTrained = Sprinting,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSprinting2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSprinting_Ground,
+	}
+
+    item BookSprinting3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Sprinting Vol.3: Advance Techniques,
+		Icon	=	BookSprinting,
+        SkillTrained = Sprinting,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSprinting3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSprinting_Ground,
+	}
+
+    item BookSprinting4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Sprinting Vol.4: Expert Techniques,
+		Icon	=	BookSprinting,
+        SkillTrained = Sprinting,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSprinting4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSprinting_Closed_Ground,
+	}
+
+    item BookSprinting5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Sprinting Vol.5: Professional Techniques,
+		Icon	=	BookSprinting,
+        SkillTrained = Sprinting,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSprinting5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSprinting_Closed_Ground,
+	}
+
+    item BookSprinting6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Sprinting Vol.6,
+		Icon	=	BookSprinting,
+        SkillTrained = Sprinting,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookSprinting6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSprinting_Closed_Ground,
+	}
+
+    item BookAiming1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Aiming Vol.1: Novices Techniques,
+		Icon	=	BookAiming,
+        SkillTrained = Aiming,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookAiming1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookAiming_Ground,
+	}
+
+
+    item BookAiming2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Aiming Vol.2: Intermediate Techniques,
+		Icon	=	BookAiming,
+        SkillTrained = Aiming,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookAiming2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookAiming_Ground,
+	}
+
+
+    item BookAiming3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Aiming Vol.3: Advance Techniques,
+		Icon	=	BookAiming,
+        SkillTrained = Aiming,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookAiming3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookAiming_Ground,
+	}
+
+
+    item BookAiming4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Aiming Vol.4: Expert Techniques,
+		Icon	=	BookAiming,
+        SkillTrained = Aiming,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookAiming4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookAiming_Closed_Ground,
+	}
+
+
+    item BookAiming5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Aiming Vol.5: Professional Techniques,
+		Icon	=	BookAiming,
+        SkillTrained = Aiming,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookAiming5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookAiming_Closed_Ground,
+	}
+
+    item BookAiming6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Aiming Vol.6,
+		Icon	=	BookAiming,
+        SkillTrained = Aiming,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookAiming6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookAiming_Closed_Ground,
+	}
+
+
+    item BookReloading1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Reloading Vol.1: Novices Techniques,
+		Icon	=	BookReloading,
+        SkillTrained = Reloading,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookReloading1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookReloading_Ground,
+	}
+
+
+    item BookReloading2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Reloading Vol.2: Intermediate Techniques,
+		Icon	=	BookReloading,
+        SkillTrained = Reloading,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookReloading2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookReloading_Ground,
+	}
+
+
+    item BookReloading3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Reloading Vol.3: Advance Techniques,
+		Icon	=	BookReloading,
+        SkillTrained = Reloading,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookReloading3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookReloading_Ground,
+	}
+
+
+    item BookReloading4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Reloading Vol.4: Expert Techniques,
+		Icon	=	BookReloading,
+        SkillTrained = Reloading,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookReloading4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookReloading_Closed_Ground,
+	}
+
+
+    item BookReloading5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Reloading Vol.5: Professional Techniques,
+		Icon	=	BookReloading,
+        SkillTrained = Reloading,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookReloading5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookReloading_Closed_Ground,
+	}
+
+    item BookReloading6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Reloading Vol.6,
+		Icon	=	BookReloading,
+        SkillTrained = Reloading,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookReloading6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookReloading_Closed_Ground,
+	}
+
+
+    item BookMaintenance1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Maintenance Vol.1: Novices Techniques,
+		Icon	=	BookMaintenance,
+        SkillTrained = Maintenance,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookMaintenance1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookMaintenance_Ground,
+	}
+
+
+    item BookMaintenance2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Maintenance Vol.2: Intermediate Techniques,
+		Icon	=	BookMaintenance,
+        SkillTrained = Maintenance,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookMaintenance2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookMaintenance_Ground,
+	}
+
+
+    item BookMaintenance3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Maintenance Vol.3: Advance Techniques,
+		Icon	=	BookMaintenance,
+        SkillTrained = Maintenance,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookMaintenance3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookMaintenance_Ground,
+	}
+
+
+    item BookMaintenance4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Maintenance Vol.4: Expert Techniques,
+		Icon	=	BookMaintenance,
+        SkillTrained = Maintenance,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookMaintenance4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookMaintenance_Closed_Ground,
+	}
+
+
+    item BookMaintenance5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Maintenance Vol.5: Professional Techniques,
+		Icon	=	BookMaintenance,
+        SkillTrained = Maintenance,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookMaintenance5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookMaintenance_Closed_Ground,
+	}
+
+    item BookMaintenance6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Maintenance Vol.6,
+		Icon	=	BookMaintenance,
+        SkillTrained = Maintenance,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookMaintenance6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookMaintenance_Closed_Ground,
+	}
+
+
+    item BookAxe1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	How to Chop With an Axe Vol.1: Novices Techniques,
+		Icon	=	BookAxe,
+        SkillTrained = Axe,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookAxe1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookAxe_Ground,
+	}
+
+
+    item BookAxe2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	How to Chop With an Axe Vol.2: Intermediate Techniques,
+		Icon	=	BookAxe,
+        SkillTrained = Axe,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookAxe2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookAxe_Ground,
+	}
+
+
+    item BookAxe3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	How to Chop With an Axe Vol.3: Advance Techniques,
+		Icon	=	BookAxe,
+        SkillTrained = Axe,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookAxe3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookAxe_Ground,
+	}
+
+
+    item BookAxe4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	How to Chop With an Axe Vol.4: Expert Techniques,
+		Icon	=	BookAxe,
+        SkillTrained = Axe,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookAxe4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookAxe_Closed_Ground,
+	}
+
+
+    item BookAxe5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	How to Chop With an Axe Vol.5: Professional Techniques,
+		Icon	=	BookAxe,
+        SkillTrained = Axe,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookAxe5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookAxe_Closed_Ground,
+	}
+
+    item BookAxe6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	How to Chop With an Axe Vol.6,
+		Icon	=	BookAxe,
+        SkillTrained = Axe,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookAxe6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookAxe_Closed_Ground,
+	}
+
+
+    item BookSmallBlunt1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Enter the Mace Vol.1: Novices Techniques,
+		Icon	=	BookSmallBlunt,
+        SkillTrained = SmallBlunt,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSmallBlunt1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSmallBlunt_Ground,
+	}
+
+
+    item BookSmallBlunt2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Enter the Mace Vol.2: Intermediate Techniques,
+		Icon	=	BookSmallBlunt,
+        SkillTrained = SmallBlunt,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSmallBlunt2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSmallBlunt_Ground,
+	}
+
+
+    item BookSmallBlunt3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Enter the Mace Vol.3: Advance Techniques,
+		Icon	=	BookSmallBlunt,
+        SkillTrained = SmallBlunt,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSmallBlunt3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSmallBlunt_Ground,
+	}
+
+
+    item BookSmallBlunt4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Enter the Mace Vol.4: Expert Techniques,
+		Icon	=	BookSmallBlunt,
+        SkillTrained = SmallBlunt,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSmallBlunt4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSmallBlunt_Closed_Ground,
+	}
+
+
+    item BookSmallBlunt5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Enter the Mace Vol.5: Professional Techniques,
+		Icon	=	BookSmallBlunt,
+        SkillTrained = SmallBlunt,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSmallBlunt5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSmallBlunt_Closed_Ground,
+	}
+
+    item BookSmallBlunt6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Enter the Mace Vol.6,
+		Icon	=	BookSmallBlunt,
+        SkillTrained = SmallBlunt,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookSmallBlunt6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSmallBlunt_Closed_Ground,
+	}
+
+
+    item BookBlunt1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Baseball Bats and You Vol.1: Novices Techniques,
+		Icon	=	BookBlunt,
+        SkillTrained = Blunt,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookBlunt1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookBlunt_Ground,
+	}
+
+
+    item BookBlunt2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Baseball Bats and You Vol.2: Intermediate Techniques,
+		Icon	=	BookBlunt,
+        SkillTrained = Blunt,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookBlunt2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookBlunt_Ground,
+	}
+
+
+    item BookBlunt3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Baseball Bats and You Vol.3: Advance Techniques,
+		Icon	=	BookBlunt,
+        SkillTrained = Blunt,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookBlunt3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookBlunt_Ground,
+	}
+
+
+    item BookBlunt4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Baseball Bats and You Vol.4: Expert Techniques,
+		Icon	=	BookBlunt,
+        SkillTrained = Blunt,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookBlunt4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookBlunt_Closed_Ground,
+	}
+
+
+    item BookBlunt5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Baseball Bats and You Vol.5: Professional Techniques,
+		Icon	=	BookBlunt,
+        SkillTrained = Blunt,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookBlunt5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookBlunt_Closed_Ground,
+	}
+
+    item BookBlunt6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Baseball Bats and You Vol.6,
+		Icon	=	BookBlunt,
+        SkillTrained = Blunt,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookBlunt6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookBlunt_Closed_Ground,
+	}
+
+
+    item BookSmallBlade1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	The Knife Toolkit Vol.1: Novices Techniques,
+		Icon	=	BookSmallBlade,
+        SkillTrained = SmallBlade,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSmallBlade1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSmallBlade_Ground,
+	}
+
+
+    item BookSmallBlade2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	The Knife Toolkit Vol.2: Intermediate Techniques,
+		Icon	=	BookSmallBlade,
+        SkillTrained = SmallBlade,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSmallBlade2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSmallBlade_Ground,
+	}
+
+
+    item BookSmallBlade3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	The Knife Toolkit Vol.3: Advance Techniques,
+		Icon	=	BookSmallBlade,
+        SkillTrained = SmallBlade,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSmallBlade3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSmallBlade_Ground,
+	}
+
+
+    item BookSmallBlade4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	The Knife Toolkit Vol.4: Expert Techniques,
+		Icon	=	BookSmallBlade,
+        SkillTrained = SmallBlade,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSmallBlade4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSmallBlade_Closed_Ground,
+	}
+
+
+    item BookSmallBlade5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	The Knife Toolkit Vol.5: Professional Techniques,
+		Icon	=	BookSmallBlade,
+        SkillTrained = SmallBlade,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSmallBlade5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSmallBlade_Closed_Ground,
+	}
+
+    item BookSmallBlade6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	The Knife Toolkit Vol.6,
+		Icon	=	BookSmallBlade,
+        SkillTrained = SmallBlade,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookSmallBlade6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSmallBlade_Closed_Ground,
+	}
+
+
+    item BookLongBlade1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	The Sword Vol.1: Novices Techniques,
+		Icon	=	BookLongBlade,
+        SkillTrained = LongBlade,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookLongBlade1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookBlade_Ground,
+	}
+
+
+    item BookLongBlade2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	The Sword Vol.2: Intermediate Techniques,
+		Icon	=	BookLongBlade,
+        SkillTrained = LongBlade,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookLongBlade2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookBlade_Ground,
+	}
+
+
+    item BookLongBlade3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	The Sword Vol.3: Advance Techniques,
+		Icon	=	BookLongBlade,
+        SkillTrained = LongBlade,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookLongBlade3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookBlade_Ground,
+	}
+
+
+    item BookLongBlade4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	The Sword Vol.4: Expert Techniques,
+		Icon	=	BookLongBlade,
+        SkillTrained = LongBlade,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookLongBlade4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookBlade_Closed_Ground,
+	}
+
+
+    item BookLongBlade5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	The Sword Vol.5: Professional Techniques,
+		Icon	=	BookLongBlade,
+        SkillTrained = LongBlade,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookLongBlade5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookBlade_Closed_Ground,
+	}
+
+    item BookLongBlade6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	The Sword Vol.6,
+		Icon	=	BookLongBlade,
+        SkillTrained = LongBlade,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookLongBlade6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookBlade_Closed_Ground,
+	}
+
+
+    item BookSpear1
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	220,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Medieval Spears Vol.1: Novices Techniques,
+		Icon	=	BookSpear,
+        SkillTrained = Spear,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSpear1,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSpear_Ground,
+	}
+
+
+    item BookSpear2
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	260,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Medieval Spears Vol.2: Intermediate Techniques,
+		Icon	=	BookSpear,
+        SkillTrained = Spear,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSpear2,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSpear_Ground,
+	}
+
+
+    item BookSpear3
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	300,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Medieval Spears Vol.3: Advance Techniques,
+		Icon	=	BookSpear,
+        SkillTrained = Spear,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSpear3,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSpear_Ground,
+	}
+
+
+    item BookSpear4
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	340,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Medieval Spears Vol.4: Expert Techniques,
+		Icon	=	BookSpear,
+        SkillTrained = Spear,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSpear4,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSpear_Closed_Ground,
+	}
+
+    item BookSpear5
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	380,
+		Weight	=	0.8,
+		Type	=	Literature,
+		DisplayName	=	Medieval Spears Vol.5: Professional Techniques,
+		Icon	=	BookSpear,
+        SkillTrained = Spear,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        ReplaceOnUse    =   BookSpear5,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSpear_Closed_Ground,
+	}
+
+    item BookSpear6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Medieval Spears Vol.6,
+		Icon	=	BookSpear,
+        SkillTrained = Spear,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookSpear6,
+        StaticModel = Book,
+        WorldStaticModel = Item_BookSpear_Closed_Ground,
+	}
+
+    /****************************** Vanilla Skills Vol.6 ******************************/
+
+	item BookTrapping6
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	1500,
+        Weight	=	4,
+        Type	=	Literature,
+        DisplayName = Trapping Vol. 6,
+        Icon	=	Book4,
+        SkillTrained = Trapping,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        StaticModel = Book,
+        WorldStaticModel = BookYellowBrown_Ground,
+    }
+
+	item BookFishing6
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	1500,
+        Weight	=	4,
+        Type	=	Literature,
+        DisplayName = Fishing Vol. 6,
+        Icon	=	Book5,
+        SkillTrained = Fishing,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        StaticModel = Book,
+        WorldStaticModel = BookPurple_Ground,
+    }
+
+	item BookCarpentry6
+	{
+	    DisplayCategory = SkillBook,
+        NumberOfPages	=	1500,
+        Weight	=	4,
+		Type	=	Literature,
+		DisplayName	=	Carpentry Vol. 6,
+		Icon	=	Book8,
+        SkillTrained = Carpentry,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        ReplaceOnUse    =   BookCarpentry6,
+        StaticModel = Book,
+        WorldStaticModel = BookBrown_Ground,
+    }
+
+    item BookMechanic6
+    {
+        DisplayCategory = SkillBook,
+        NumberOfPages	=	1500,
+        Weight	=	4,
+        Type	=	Literature,
+        DisplayName = Mechanics Vol. 6,
+        Icon	=	Book11,
+        SkillTrained = Mechanics,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        StaticModel = Book,
+        WorldStaticModel = BookYellow_Ground,
+    }
+
+    item BookFirstAid6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName = First Aid Vol. 6,
+		Icon	=	Book2,
+        SkillTrained = FirstAid,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        StaticModel = Book,
+        WorldStaticModel = BookLightBlue_Ground,
+    }
+
+    item BookBlacksmith6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName = Blacksmith Vol. 6,
+		Icon	=	Book6,
+        SkillTrained = Blacksmith,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        StaticModel = Book,
+        WorldStaticModel = BookRedPink_Ground,
+    }
+
+    item BookMetalWelding6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName = Metalwork Vol. 6,
+		Icon	=	Book7,
+        SkillTrained = MetalWelding,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        StaticModel = Book,
+        WorldStaticModel = BookGrey_Ground,
+    }
+
+    item BookElectrician6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName = Electrician Vol. 6,
+		Icon	=	Book6,
+        SkillTrained = Electricity,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        StaticModel = Book,
+        WorldStaticModel = BookRedPink_Ground,
+    }
+
+    item BookCooking6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName = Cooking Vol. 6,
+		Icon	=	Book9,
+        SkillTrained = Cooking,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        StaticModel = Book,
+        WorldStaticModel = BookDarkCyan_Ground,
+	}
+
+    item BookFarming6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName = Farming Vol. 6,
+		Icon	=	Book3,
+        SkillTrained = Farming,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        StaticModel = Book,
+        WorldStaticModel = BookLightGreen_Ground,
+	}
+
+    item BookForaging6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName = Foraging Vol. 6,
+		Icon	=	Book10,
+        SkillTrained = Foraging,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        StaticModel = Book,
+        WorldStaticModel = BookGreen_Ground,
+	}
+
+    item BookTailoring6
+	{
+	    DisplayCategory = SkillBook,
+		NumberOfPages	=	1500,
+		Weight	=	4,
+		Type	=	Literature,
+		DisplayName = Tailoring Vol. 6,
+		Icon	=	Book11,
+        SkillTrained = Tailoring,
+        LvlSkillTrained = 0,
+        NumLevelsTrained = 11,
+        StaticModel = Book,
+        WorldStaticModel = BookYellow_Ground,
+	}
+
+
+    /****************************** Entertainment ******************************/
+
+	item BookFantasy1
+	{
+	    DisplayCategory = LitE,
+		NumberOfPages	=	64,
+		Weight	=	1.2,
+		Type	=	Literature,
+		DisplayName	=	BookFantasy1,
+		UnhappyChange	=	10,
+		StressChange	=	40,
+		BoredomChange	=	10,
+        ReplaceOnUse    =   BookFantasy1,
+		Icon	=	Book,
+        StaticModel = Book,
+		WorldStaticModel = BookClosedGround,
+	}
+
+	item BookFantasy2
+	{
+	    DisplayCategory = LitE,
+		NumberOfPages	=	64,
+		Weight	=	1.2,
+		Type	=	Literature,
+		DisplayName	=	BookFantasy2,
+		UnhappyChange	=	-20,
+		StressChange	=	-20,
+		BoredomChange	=	-20,
+        ReplaceOnUse    =   BookFantasy2,
+		Icon	=	Book,
+        StaticModel = Book,
+		WorldStaticModel = BookClosedGround,
+	}
+
+	item BookFantasy3
+	{
+	    DisplayCategory = LitE,
+		NumberOfPages	=	64,
+		Weight	=	1.2,
+		Type	=	Literature,
+		DisplayName	=	BookFantasy3,
+		UnhappyChange	=	-40,
+		StressChange	=	-40,
+		BoredomChange	=	-40,
+        ReplaceOnUse    =   BookFantasy3,
+		Icon	=	Book,
+        StaticModel = Book,
+		WorldStaticModel = BookClosedGround,
+	}
+
+	recipe Write Book 1
+	{
+		Book,
+		keep [Recipe.GetItemTypes.Write],
+		SkillRequired:Intelligence=2,
+		Result:BookFantasy1,
+		Time:100.0,
+	}
+	recipe Write Book 2
+	{
+		Book/BookFantasy1,
+		keep [Recipe.GetItemTypes.Write],
+		SkillRequired:Intelligence=5,
+		Result:BookFantasy2,
+		Time:100.0,
+	}
+	recipe Write Book 3
+	{
+		Book/BookFantasy1/BookFantasy2,
+		keep [Recipe.GetItemTypes.Write],
+		SkillRequired:Intelligence=8,
+		Result:BookFantasy3,
+		Time:100.0,
+	}
+
+}
